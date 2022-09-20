@@ -1,7 +1,7 @@
 import React from 'react';
 import { StoreContext } from '..';
 import {addMovieToList , handleMovieSearch } from '../actions';
-import { search } from '../reducers';
+
 
 class Navbar extends React.Component{
     constructor(props){
